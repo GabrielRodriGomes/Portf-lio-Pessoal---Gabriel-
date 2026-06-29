@@ -268,8 +268,18 @@ section h2{
 /* ===================================================
    PORTFÓLIO
    =================================================== */
+#portfolio p{
 
-.projetos{
+    max-width: 800px;
+
+    margin: 0 auto 40px auto;
+
+    text-align: center;
+
+}
+
+
+   .projetos{
 
     display:flex;
 
@@ -281,19 +291,17 @@ section h2{
 
 }
 
-.projeto{
+.projetos{
 
-    width:300px;
+    display: flex;
 
-    background:white;
+    justify-content: center;
 
-    padding:25px;
+    flex-wrap: wrap;
 
-    border-radius:12px;
+    gap: 30px;
 
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
-
-    transition:.3s;
+    margin-top: 40px;
 
 }
 
